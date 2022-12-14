@@ -110,7 +110,7 @@ console.log(`${student4.name} pazymiu vidurkis yra ${vidurkis4}.`);
 console.log('---------------');
 console.clear();
 
-const currency = 'EUR';
+const valiuta = 'EUR';
 const prekes = [
     {
         name: 'Bananas',
@@ -129,10 +129,16 @@ const prekes = [
     },
 ];
 
-console.log('MUSU PARDUOTUVE:');
-console.log('----------------');
-console.log(`1) Bananas kainuoja 2.00 EUR ir turime ju 10 vienetu.`);
-console.log(`2) Agurkas kainuoja 3.00 EUR ir turime ju 10 vienetu.`);
-console.log(`3) Pomidoras kainuoja 1.57 EUR ir turime ju 30 vienetu.`);
-console.log('----------------');
-console.log(`Viso asortimento kaina: 97.10 EUR.`);
+function shop() {
+
+}
+
+shop(prekes, valiuta);
+
+// MUSU PARDUOTUVE:
+// ----------------
+// 1) Bananas kainuoja 2.00 EUR ir turime ju 10 vienetu.
+// 2) Agurkas kainuoja 3.00 EUR ir turime ju 10 vienetu.
+// 3) Pomidoras kainuoja 1.57 EUR ir turime ju 30 vienetu.
+// ----------------
+// Viso asortimento kaina: 97.10 EUR.
