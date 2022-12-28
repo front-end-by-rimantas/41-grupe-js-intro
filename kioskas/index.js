@@ -129,7 +129,7 @@ onlineKioskas.orderPrice('John');
 onlineKioskas.shopSummary();
 // Summary for the "Meskiuko kioskas"
 // ====================
-// Items sold: 12
+// Items sold: 8
 // Orders completed: 2
 // Orders in progress: 1
 // Profit: 10.80 EUR
