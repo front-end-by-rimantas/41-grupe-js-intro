@@ -5,6 +5,7 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "music": "nodemon ./music/index.js",
         "cirkas": "nodemon ./cirkas/index.js",
         "basketball": "nodemon ./basketball/index.js",
         "kitchen": "nodemon ./kitchen/index.js",
