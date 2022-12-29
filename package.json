@@ -5,6 +5,7 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "kitchen": "nodemon ./kitchen/index.js",
         "citybird": "nodemon ./city-bird/index.js",
         "kioskas": "nodemon ./kioskas/index.js",
         "class": "nodemon ./class/index.js",
