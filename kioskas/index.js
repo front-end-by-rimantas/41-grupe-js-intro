@@ -124,7 +124,7 @@ onlineKioskas.order('John');
 onlineKioskas.items();
 
 onlineKioskas.orderPrice('John');
-// Augustas order: 4.70 EUR.
+// John order: 4.70 EUR.
 
 onlineKioskas.shopSummary();
 // Summary for the "Meskiuko kioskas"
@@ -132,6 +132,6 @@ onlineKioskas.shopSummary();
 // Items sold: 8
 // Orders completed: 2
 // Orders in progress: 1
-// Profit: 10.80 EUR
-// Possible profit: 5.60 EUR
+// Profit: 9.90 EUR
+// Possible profit: 4.70 EUR
 // ====================
