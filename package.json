@@ -5,6 +5,7 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "math": "nodemon ./js/21-math.js",
         "dealer": "nodemon ./dealer/index.js",
         "music": "nodemon ./music/index.js",
         "cirkas": "nodemon ./cirkas/index.js",
